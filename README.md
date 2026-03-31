@@ -2,6 +2,8 @@ Habit Tracker
 
 A simple, interactive habit tracker built with React. Users can create habits, track daily completion using a calendar view, and persist data locally in the browser.
 
+⸻
+
 Features
 	•	Add and delete habits
 	•	Monthly calendar view for each habit
@@ -11,11 +13,15 @@ Features
 	•	Data persistence using localStorage
 	•	Clean and responsive grid layout
 
+⸻
+
 Tech Stack
 	•	React (functional components + hooks)
 	•	JavaScript (ES6+)
 	•	CSS (grid + flexbox)
 	•	Browser Local Storage
+
+⸻
 
 Project Structure
 
@@ -30,6 +36,9 @@ habit-tracker/
 │  ├─ index.js
 ├─ package.json
 └─ README.md
+
+
+⸻
 
 How It Works
 
@@ -46,6 +55,8 @@ State Management
   }
 }
 
+
+
 Date Handling
 	•	Dates are stored as strings in YYYY-MM-DD format
 	•	Enables easy comparison and lookup
@@ -58,10 +69,13 @@ Calendar Interaction
 	•	Future dates are disabled
 	•	Each habit maintains its own independent state
 
+⸻
+
 Local Storage Persistence
 	•	Data is loaded on initial render using a lazy useState initializer
 	•	Data is saved whenever habits changes using useEffect
 
+⸻
 
 Getting Started
 
@@ -77,6 +91,8 @@ npm start
 
 http://localhost:3000
 
+
+⸻
 
 Future Improvements
 	•	Yearly heatmap view (GitHub-style)
